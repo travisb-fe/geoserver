@@ -311,7 +311,7 @@ abstract class ElasticConfigurationPage extends Panel {
                                         new Fragment(id, "label", ElasticConfigurationPage.this);
                                 String format = "";
                                 for (int i = 0; i < validFormats.size(); i++) {
-                                    if (i != valid_formats.size()) {
+                                    if (i != validFormats.size()) {
                                         format = format + validFormats.get(i) + " || ";
                                     } else {
                                         format = format + validFormats.get(i);
