@@ -48,6 +48,7 @@
           <descriptor>release/ext-geopkg.xml</descriptor>
           <descriptor>release/ext-pgraster.xml</descriptor>
           <descriptor>release/ext-dyndimension.xml</descriptor>
+          <descriptor>release/ext-elasticsearch.xml</descriptor>
           <!-- If you are re-enabling this, remember to re-add the documentation -->
           <!-- <descriptor>release/ext-rest-ext.xml</descriptor> -->
           <descriptor>release/ext-kmlppio.xml</descriptor>
@@ -260,6 +261,7 @@
         <module>netcdf-ghrsst</module>
         <module>taskmanager</module>
         <module>wfs3</module>
+        <module>elasticsearch</module>
         <!-- <module>monitor-hibernate</module> -->
         <module>qos</module>
       </modules>
@@ -591,6 +593,12 @@
       <id>monitor-hibernate</id>
       <modules>
         <module>monitor-hibernate</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>elasticsearch</id>
+      <modules>
+        <module>elasticsearch</module>
       </modules>
     </profile>
   </profiles>  
